@@ -1,68 +1,86 @@
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/wordmark?username=mturo&theme=github-dark&label=Marcos%20Turo" width="100%" alt="Marcos Turo" />
-</p>
+<div align="center">
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=mturo&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/hero?username=mturo&theme=github-dark&mode=dark" width="100%" alt="Marcos Turo — profile" />
-  </picture>
-</p>
+<img src="https://www.gitskins.com/api/section/wordmark?username=mturo&theme=github-dark&label=Marcos%20Turo" width="100%" alt="Marcos Turo" />
 
-<p align="center"><a href="https://github.com/mturo">GitHub</a></p>
+### Software Development · Machine Learning · Data
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/about?username=mturo&theme=github-dark" alt="mturo about visual" />
-</p>
+Building software, exploring machine learning and turning ideas into working projects.
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=mturo&theme=github-dark" alt="mturo stack visual" />
-</p>
+[GitHub](https://github.com/mturo) · [Repositories](https://github.com/mturo?tab=repositories)
 
-## Signal
+</div>
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=mturo&theme=github-dark" width="100%" alt="2 stars across 16 repositories" />
-</p>
+---
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=mturo&theme=github-dark" width="100%" alt="Language stack" />
-</p>
+## About me
 
-## Work
+```text
+Developer focused on building practical software and learning by shipping projects.
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/projects?username=mturo&theme=github-dark" width="100%" alt="Pinned projects" />
-</p>
+Currently exploring:
+├── Software Engineering
+├── Machine Learning
+├── Data Science
+├── APIs & Backend
+└── AI systems
+```
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=mturo&theme=github-dark" alt="mturo social visual" />
-</p>
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/about?username=mturo&theme=github-dark" width="100%" alt="About Marcos Turo" />
+</div>
+
+## Tech
+
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/stack?username=mturo&theme=github-dark" width="100%" alt="Technology stack" />
+</div>
+
+## Featured projects
+
+### ML Stock Market
+
+Machine-learning experiments applied to financial market data.
+
+[View repository →](https://github.com/mturo/ML-Stock-Market)
+
+---
+
+### Aircraft Occurrences Classification
+
+Machine-learning project developed around aircraft-occurrence category prediction.
+
+[View repository →](https://github.com/mturo/INF1032)
+
+---
+
+### BudgetFlow
+
+Frontend project focused on personal finance and budget management.
+
+[View repository →](https://github.com/mturo/BudgetFlow_frontend)
+
+## GitHub activity
+
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/stats?username=mturo&theme=github-dark" width="100%" alt="GitHub statistics" />
+</div>
+
+## Projects
+
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/projects?username=mturo&theme=github-dark" width="100%" alt="Featured GitHub projects" />
+</div>
 
 ## Profile scan
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/system-scan?username=mturo&theme=github-dark" width="100%" alt="ASCII profile scan" />
-</p>
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/system-scan?username=mturo&theme=github-dark" width="100%" alt="GitHub profile scan" />
+</div>
 
-<hr />
+---
 
-<p align="center">
-  <sub>Marcos Turo · every panel is a single <code>&lt;img&gt;</code> of live GitHub data ·
-  built with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub>
-</p>
-
-<!--
-**MTuro/MTuro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+  <sub>
+    Marcos Turo · Building, learning and shipping.
+  </sub>
+</div>
