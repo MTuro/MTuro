@@ -1,16 +1,16 @@
 <div align="center">
 
 <img
-  src="https://www.gitskins.com/api/section/wordmark?username=mturo&theme=github-dark&label=Marcos%20Turo"
+  src="./mturo-ai-terminal.svg"
   width="100%"
-  alt="Marcos Turo"
+  alt="MTuro AI System"
 />
 
 ### AI Engineering · Machine Learning · Software Engineering
 
 Computer Science student at PUC-Rio, graduating in 2026.
 
-Building AI systems, machine-learning pipelines and backend applications with Python.
+Building LLM applications, RAG systems, AI agents and backend services with Python.
 
 [GitHub](https://github.com/mturo) ·
 [Repositories](https://github.com/mturo?tab=repositories)
