@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="MTuro AI System animated terminal">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #0b0f14;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --muted: #8b949e;
+      --green: #3fb950;
+      --cyan: #58a6ff;
+      --purple: #bc8cff;
+      --yellow: #d29922;
+    }
+
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .title { font-size: 25px; font-weight: 700; letter-spacing: 1.5px; fill: var(--text); }
+    .line { font-size: 20px; fill: var(--text); }
+    .muted { fill: var(--muted); }
+    .green { fill: var(--green); }
+    .cyan { fill: var(--cyan); }
+    .purple { fill: var(--purple); }
+    .yellow { fill: var(--yellow); }
+
+    .step { opacity: 0; animation: showStep 14s infinite; }
+    .s1 { animation-delay: 0.5s; }
+    .s2 { animation-delay: 2.2s; }
+    .s3 { animation-delay: 4.2s; }
+    .s4 { animation-delay: 5.1s; }
+    .s5 { animation-delay: 6.0s; }
+    .s6 { animation-delay: 6.9s; }
+    .s7 { animation-delay: 7.8s; }
+    .s8 { animation-delay: 9.1s; }
+    .s9 { animation-delay: 10.4s; }
+
+    @keyframes showStep {
+      0%, 4%   { opacity: 0; }
+      7%, 82%  { opacity: 1; }
+      93%,100% { opacity: 0; }
+    }
+
+    .progress {
+      width: 0px;
+      animation: fillBar 14s infinite;
+    }
+
+    @keyframes fillBar {
+      0%, 15% { width: 0px; }
+      28%, 82% { width: 660px; }
+      93%,100% { width: 0px; }
+    }
+
+    .pct { opacity: 0; animation: pct100 14s infinite; }
+    @keyframes pct100 {
+      0%, 26% { opacity: 0; }
+      29%, 82% { opacity: 1; }
+      93%,100% { opacity: 0; }
+    }
+
+    .cursor { animation: blink 0.8s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .scan {
+      opacity: 0.03;
+      animation: scan 5s linear infinite;
+    }
+    @keyframes scan {
+      from { transform: translateY(-20px); }
+      to   { transform: translateY(560px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .step, .progress, .pct, .cursor, .scan { animation: none !important; opacity: 1 !important; }
+      .progress { width: 660px !important; }
+    }
+  </style>
+
+  <rect width="1200" height="560" rx="18" fill="#0d1117"/>
+  <rect x="24" y="24" width="1152" height="512" rx="14" fill="#0b0f14" stroke="#30363d" stroke-width="2"/>
+
+  <!-- terminal chrome -->
+  <circle cx="54" cy="52" r="7" fill="#ff5f56"/>
+  <circle cx="78" cy="52" r="7" fill="#ffbd2e"/>
+  <circle cx="102" cy="52" r="7" fill="#27c93f"/>
+  <text x="150" y="60" class="mono muted" font-size="15">mturo@github: ~/profile</text>
+  <line x1="24" y1="80" x2="1176" y2="80" stroke="#21262d"/>
+
+  <!-- subtle scanline -->
+  <rect class="scan" x="25" y="80" width="1150" height="3" fill="#58a6ff"/>
+
+  <!-- header -->
+  <text x="58" y="126" class="mono title">MTURO // AI SYSTEM</text>
+  <text x="58" y="158" class="mono muted" font-size="16">boot sequence v1.0</text>
+
+  <!-- sequence -->
+  <g class="step s1">
+    <text x="58" y="205" class="mono line">
+      <tspan class="green">&gt;</tspan>
+      <tspan> INITIALIZING AI ENGINEERING ENVIRONMENT...</tspan>
+    </text>
+  </g>
+
+  <g class="step s2">
+    <rect x="58" y="232" width="660" height="18" rx="4" fill="#161b22" stroke="#30363d"/>
+    <rect class="progress" x="58" y="232" height="18" rx="4" fill="#3fb950"/>
+    <text x="740" y="247" class="mono line pct">100%</text>
+  </g>
+
+  <g class="step s3">
+    <text x="58" y="292" class="mono line">
+      <tspan class="cyan">[OK]</tspan>
+      <tspan dx="16">AI_ENGINEERING</tspan>
+      <tspan x="470" class="green">ONLINE</tspan>
+    </text>
+  </g>
+
+  <g class="step s4">
+    <text x="58" y="328" class="mono line">
+      <tspan class="cyan">[OK]</tspan>
+      <tspan dx="16">MACHINE_LEARNING</tspan>
+      <tspan x="470" class="green">ONLINE</tspan>
+    </text>
+  </g>
+
+  <g class="step s5">
+    <text x="58" y="364" class="mono line">
+      <tspan class="cyan">[OK]</tspan>
+      <tspan dx="16">RAG_SYSTEMS</tspan>
+      <tspan x="470" class="green">ONLINE</tspan>
+    </text>
+  </g>
+
+  <g class="step s6">
+    <text x="58" y="400" class="mono line">
+      <tspan class="cyan">[OK]</tspan>
+      <tspan dx="16">AI_AGENTS</tspan>
+      <tspan x="470" class="green">ONLINE</tspan>
+    </text>
+  </g>
+
+  <g class="step s7">
+    <text x="58" y="436" class="mono line">
+      <tspan class="cyan">[OK]</tspan>
+      <tspan dx="16">BACKEND_SYSTEMS</tspan>
+      <tspan x="470" class="green">ONLINE</tspan>
+    </text>
+  </g>
+
+  <g class="step s8">
+    <text x="58" y="482" class="mono line">
+      <tspan class="purple">STACK ::</tspan>
+      <tspan> Python / FastAPI / LLMs / AWS / SQL / TypeScript</tspan>
+    </text>
+  </g>
+
+  <g class="step s9">
+    <text x="58" y="518" class="mono line">
+      <tspan class="yellow">STATUS ::</tspan>
+      <tspan> BUILDING INTELLIGENT SOFTWARE</tspan>
+      <tspan class="cursor">_</tspan>
+    </text>
+  </g>
+</svg>
